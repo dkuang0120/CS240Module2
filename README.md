@@ -13,7 +13,7 @@ It contains 11 renamed instructions and 10 custom instructions not already in MA
      
 # How to Use Each Program
   Cat Mood Program
-    1. Change $t0, $t1, and $t2 to alter treat amount and energy level
+    \n 1. Change $t0, $t1, and $t2 to alter treat amount and energy level
     2. After assembling, the program will run a calculation to determine a mood score
     3. If the mood score is positive, the cat is happy. If the mood score is negative, the cat is grumpy.
     4. It will print a face in the console depending on whether the cat is happy or grumpy.
