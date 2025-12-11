@@ -13,17 +13,17 @@ It contains 11 renamed instructions and 10 custom instructions not already in MA
      
 # How to Use Each Program
   Cat Mood Program
-    \n 1. Change $t0, $t1, and $t2 to alter treat amount and energy level
-    2. After assembling, the program will run a calculation to determine a mood score
-    3. If the mood score is positive, the cat is happy. If the mood score is negative, the cat is grumpy.
-    4. It will print a face in the console depending on whether the cat is happy or grumpy.
+  1. Change $t0, $t1, and $t2 to alter treat amount and energy level
+  2. After assembling, the program will run a calculation to determine a mood score
+  3. If the mood score is positive, the cat is happy. If the mood score is negative, the cat is grumpy.
+  4. It will print a face in the console depending on whether the cat is happy or grumpy.
 
   Treat Counter Program
-    1. Change $t0, $t1, and $t2 to alter treat amount in each room
-    2. If total treat amount is >= 5, cat is happy and prints '9'. If it is <5 , cat is sad and prints '0'
+  1. Change $t0, $t1, and $t2 to alter treat amount in each room
+  2. If total treat amount is >= 5, cat is happy and prints '9'. If it is <5 , cat is sad and prints '0'
 
   Cat Duel Program
-    1. Change $s0 and $s1 to set Whisker and Mitten's health
-    2. After assembling, program does a random amount of damage to each cat.
-    3. If one cat's health falls to 0 or below, that cat loses.
-    4. Prints out the winner's initial ('W' or 'M')
+  1. Change $s0 and $s1 to set Whisker and Mitten's health
+  2. After assembling, program does a random amount of damage to each cat.
+  3. If one cat's health falls to 0 or below, that cat loses.
+  4. Prints out the winner's initial ('W' or 'M')
