@@ -4,6 +4,20 @@ Final Project for CS240 (Computer Organization)
 CATS is a custom Assembly language instruction set designed for MARS simulator.
 It contains 11 renamed instructions and 10 custom instructions not already in MARS. 
 
+# Implemented Instructions:
+| Instruction               | Meaning                                    |
+| ------------------------- | ------------------------------------------ |
+| **meow rs**               | Output low byte of register as a character |
+| **purr rt,rs,imm**        | Saturating add immediate                   |
+| **chase rd,rs,rt**        | Select max(rs, rt)                         |
+| **bncat rs,label**        | Branch if rs is negative                   |
+| **cmove rd,rs,rt**        | Conditional move if rt ≠ 0                 |
+| **lick rd,rs**            | Clear lowest bit (force even)              |
+| **tail rd,rs**            | Reverse all 32 bits                        |
+| **pawrot rd,rs**          | Rotate left by 5 bits                      |
+| **scratch rt,offset(rs)** | Store 0xFFFFFFFF at memory location        |
+| **hiss imm**              | Raise a software trap (debug)              |
+
 # How to Run CATS
   1. In order to use this custom cat-themed Assembly language, make sure to have MARS-LE installed.
   2. Place the CATS.jar and CATS.java file into the customlang folder.
